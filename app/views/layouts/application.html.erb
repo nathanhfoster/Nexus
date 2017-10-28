@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" %>
-
+   
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' %>
+    <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js' %>
+
 
   <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-default navbar-static-top no-print" role="navigation">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-brand pull-left">
+          <%= link_to "Print", root_path, {:class => '', 'onclick' => 'printPage()'}%>
+      </div>
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
@@ -20,19 +26,28 @@
             <span class="icon-bar"></span>
             <span class="sr-only">Toggle navigation</span>
           </button>
-          <div class="navbar-brand pull-left">
-            <%= link_to "Portfolio", root_path, {:class => '', 'onclick' => 'openNav()'}%>
-          </div>
+
         </div>
 
         <div class="collapse navbar-collapse" id="navigation">
+
           <ul class="nav navbar-nav">
-            <li><a href="#">Link</a></li>
+
+            <li class="<%= active_class(root_path) %>">
+              <%= link_to "Resume", root_path %>
+
+              <li class="<%= active_class(projects_path) %>">
+              <%= link_to "Projects", projects_path %>
+
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <%= yield %>
+    <footer class="text-center hidden-print">
+        <p>&copy; <%= Date.today.year %> Nathan Foster.</p>
+      </footer>
   </body>
 </html>

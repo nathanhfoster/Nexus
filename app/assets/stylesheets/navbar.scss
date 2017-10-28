@@ -137,7 +137,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 }
 /* active */
 .navbar-default .navbar-nav > .active > a{
-  background-color: inherit !important;
+  background-color: $primary !important;
 }
 
 .navbar-default .navbar-nav > .active > a:hover,
