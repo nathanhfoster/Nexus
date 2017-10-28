@@ -15,7 +15,7 @@
  */
 
 //Import bootstrap-sprockets
-// @import "bootstrap-sprockets";
+@import "bootstrap-sprockets";
   
 // Import cerulean variables
 // @import "bootswatch/yeti/variables";
@@ -32,8 +32,9 @@
 
 /* Bootstrap body padding for fixed navbar */
 body { 
-    font-family: $font;
+    font-family: $font !important;
     background-color: $white-smoke !important;
+    font-weight: $bold;
 }
 
 /* Remove underline for awesome fonts */
