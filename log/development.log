@@ -398,3 +398,195 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 266ms (Views: 107.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:23:44 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 253ms (Views: 115.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:25:10 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 54.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:34:18 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:34:21 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:34:23 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:34:40 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:36:53 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 33.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:39:29 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1008ms (Views: 1006.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:42:09 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 994ms (Views: 992.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:42:18 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 638ms (Views: 637.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:42:23 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 649ms (Views: 648.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:42:50 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:43:39 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 25ms (Views: 24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:44:09 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 644ms (Views: 644.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:45:11 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:45:58 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 603ms (Views: 602.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:46:13 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 658ms (Views: 657.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:46:19 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 670ms (Views: 669.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:46:25 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 33.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:46:58 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 621ms (Views: 620.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:47:09 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 627ms (Views: 626.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:48:20 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 601ms (Views: 600.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:48:35 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 743ms (Views: 742.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-27 20:48:49 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 664ms (Views: 663.7ms)
+
+
