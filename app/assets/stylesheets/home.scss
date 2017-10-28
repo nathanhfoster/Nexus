@@ -1,13 +1,10 @@
 @import "_variables";
 
-body {
-    font-family: $font;
-}
 header {
     text-align: center;
 }
 hr {
-    border-top: 2px solid $secondary;
+    border-top: 2px solid $secondary !important;
     /* Top|Right|Bottom|Left*/
     margin: 20px 15% 20px 15%;
 }

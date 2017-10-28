@@ -25,7 +25,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'bootstrap-sass', '~> 3.2.0'
 gem 'jquery-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -54,3 +54,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# belongs_to itself
+gem 'ancestry'
+
+gem 'ruby-oembed'
+
+gem 'bootswatch-rails'
+
+gem 'font-awesome-rails'
+
+gem 'will_paginate', '~> 3.0.5'
+
+gem 'bootstrap-will_paginate', '~> 0.0.10'
