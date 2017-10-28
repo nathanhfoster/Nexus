@@ -18,13 +18,13 @@
 @import "bootstrap-sprockets";
   
 // Import cerulean variables
-// @import "bootswatch/yeti/variables";
+@import "bootswatch/yeti/variables";
 
 // Then bootstrap itself
 @import "bootstrap";
 
 // And finally bootswatch style itself
-// @import "bootswatch/yeti/bootswatch";
+@import "bootswatch/yeti/bootswatch";
 
 @import "font-awesome";
 
