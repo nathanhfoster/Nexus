@@ -2,14 +2,15 @@
 
 body {
     background-color: transparent;
+
 }
 
-body.loaded {
+body.home-page {
    background-color: $resume;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 div.page {
@@ -20,22 +21,22 @@ header {
     text-align: center;
 }
 hr {
-    border-top: 2px solid $primary !important;
+    border-top: 1px solid $primary !important;
     /* Top|Right|Bottom|Left*/
-    // margin: 20px 15% 20px 15%;
+    margin: 10px auto !important;
 }
 
 li {
 	margin-right: 2px;
 }
 
-h1,h2,h3 {
-	margin: 0 0 35px 0;
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px !important;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-p{
+p {
 	margin:0 0 25px;
 	font-size:18px;
 	line-height:1.6em;

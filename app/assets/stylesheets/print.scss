@@ -5,23 +5,28 @@
 		margin: 20px;
 	}
 
-	body { 
+	html, body { 
+		font-size: 9.5pt !important;
 	    background-color: $white !important;
 	}
 
 	div.page {
+		background-color: transparent !important;
 		height: auto;
 		border: 0;
 		margin-bottom: 0;
-		page-break-before: always;
-		page-break-after: always;
+	
 		}
 
 	hr {
-		 border-top: 2px solid $black !important;
+		 border-top: 1px solid $black !important;
 	}
 
 	a {
 	color: $black !important;
-}
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+	display: block !important;
+	}
 }
