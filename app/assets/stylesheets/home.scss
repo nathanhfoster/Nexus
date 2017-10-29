@@ -1,5 +1,21 @@
 @import "_variables";
 
+body {
+    background-color: transparent;
+}
+
+body.loaded {
+   background-color: $resume;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+div.page {
+
+}
+
 header {
     text-align: center;
 }
@@ -14,10 +30,9 @@ li {
 }
 
 h1,h2,h3 {
-	margin:0 0 35px 0;
-	font-family: 'Patua One', cursive;
+	margin: 0 0 35px 0;
 	text-transform: uppercase;
-	letter-spacing:1px;
+	letter-spacing: 1px;
 }
 
 p{
@@ -25,18 +40,22 @@ p{
 	font-size:18px;
 	line-height:1.6em;
 }
-a{
-	color:#26a5d3;
+a {
+	color: $primary !important;
 }
 a:hover,a:focus{
 	text-decoration:none;
-	color:#26a5d3;
+	color: $primary !important;
 }
 
 #contact{
 	background: $light-black;;
 	color: $white-smoke;
-	padding-bottom:80px;
+	padding-bottom: 80px;
+
+	&:hover {
+		box-shadow: 4px 4px 2px $primary;
+	}
 }
 
 textarea.form-control, .form-control {
@@ -52,8 +71,8 @@ textarea.form-control, .form-control {
     }
 }
 .fa {
-	font-size: 50px !important;
-	margin-right: 10px;
+	font-size: 2em !important;
+	margin-right: 4px;
 
 	&:hover {
 		color: $primary;

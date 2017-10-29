@@ -1,15 +1,14 @@
 @import "_variables";
 
-
 @media print {
 	@page {
 		margin: 20px;
 	}
+
 	body { 
-	    font-family: $font !important;
-	    background-color: $white-smoke !important;
-	    font-weight: $bold;
+	    background-color: $white !important;
 	}
+
 	div.page {
 		height: auto;
 		border: 0;
@@ -17,4 +16,12 @@
 		page-break-before: always;
 		page-break-after: always;
 		}
+
+	hr {
+		 border-top: 2px solid $black !important;
+	}
+
+	a {
+	color: $black !important;
+}
 }
