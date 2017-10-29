@@ -257,9 +257,23 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 }
 
 .btn-default {
-    color: $gray !important;
-    background-color: inherit !important;
-    border-color: $gray !important
+  &:hover {
+    background-color: $white-smoke !important;
+    border-color: $white-smoke !important;
+  }
+}
+
+.btn-primary {
+    color: $white-smoke !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+
+    &:active {
+    border-color: $white-smoke !important;
+  }
+    &:focus {
+    border-color: $white-smoke !important;
+  }
 }
 
 .navbar-btn {

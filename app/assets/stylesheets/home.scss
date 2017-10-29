@@ -39,6 +39,29 @@ a:hover,a:focus{
 	padding-bottom:80px;
 }
 
-textarea.form-control{
-    height:100px;
+textarea.form-control, .form-control {
+	max-width: 100%;
+    resize: vertical;
+
+    &:focus {
+    	border-color: $primary;
+    }
+
+    &:hover{
+    	border-color: $primary;
+    }
+}
+.fa {
+	font-size: 50px !important;
+	margin-right: 10px;
+
+	&:hover {
+		color: $primary;
+	}
+}
+.profile-pic {
+	margin: 40px;
+}
+section {
+	padding-bottom: 40px !important;
 }
