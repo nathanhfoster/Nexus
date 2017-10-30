@@ -4,7 +4,7 @@ body {
     background-color: transparent;
 }
 
-body.home-page {
+#home-page {
    background-color: $resume;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
@@ -79,7 +79,7 @@ textarea.form-control, .form-control {
 	}
 }
 .profile-pic {
-	margin: 40px;
+	margin: 20px;
 }
 section {
 	padding-bottom: 40px !important;
