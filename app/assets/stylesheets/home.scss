@@ -1,12 +1,11 @@
 @import "_variables";
 
 body {
-    background-color: transparent;
-
+    background-color: $black !important;
 }
 
 body.home-page {
-   background-color: $resume;
+   background-color: $resume !important;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;

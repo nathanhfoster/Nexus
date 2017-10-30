@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $("body").addClass("home-page");
+    $("#home-page").addClass("home-page");
 });
