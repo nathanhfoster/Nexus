@@ -8,6 +8,7 @@
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" %>
    
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   <!--  <%= javascript_include_tag 'https://unpkg.com/jspdf@latest/dist/jspdf.min.js' %> -->
     <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' %>
     <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js' %>
 
@@ -16,7 +17,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="navbar-brand pull-left">
-          <%= link_to "Print", root_path, {:class => '', 'onclick' => 'printPage()'}%>
+          
       </div>
       <div class="container">
         <div class="navbar-header">
@@ -44,7 +45,6 @@
         </div>
       </div>
     </nav>
-
     <%= yield %>
     <footer class="text-center hidden-print">
         <p>&copy; <%= Date.today.year %> Nathan Foster.</p>

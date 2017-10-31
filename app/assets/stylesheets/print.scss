@@ -1,32 +1,29 @@
 @import "_variables";
 
+
 @media print {
-	@page {
-		margin: 20px;
-	}
+	@page { margin: 1cm; }
 
-	html, body { 
-		font-size: 9.5pt !important;
-	    background-color: $white !important;
-	}
+	// html, body { background-color: red !important; }
 
-	div.page {
-		background-color: transparent !important;
-		height: auto;
-		border: 0;
-		margin-bottom: 0;
-	
-		}
+	// div.page { background-color: green !important; }
 
-	hr {
-		 border-top: 1px solid $black !important;
-	}
+	h1 { font-size: 24px !important; font-weight: $bold !important; }
 
-	a {
-	color: $black !important;
-	}
+	hr { border-top: 1px solid $black !important; }
 
-	h1,h2,h3,h4,h5,h6 {
-	display: block !important;
-	}
+	a { color: $black !important; }
+
+	/* Overide bootstrap */
+	.print-col-xs-2 { width: 16.66666667% !important; }
+	.print-col-xs-4 { width: 33.33333333% !important; }
+
+	/* If [device width] is less than or equal to 767px, then do {...} */
+	@media (max-width: 767px) { html, body { font-size: 83.25% !important; } }
+
+	/* If [device width] is greater than or equal to 768px, then do {...} */
+	@media (min-width: 768px) { html, body { font-size: 83.25% !important; } }
+
+	/* If [device width] is greater than or equal to 992px, then do {...} */
+	@media (min-width: 992px) { html, body { display: none !important; } }
 }

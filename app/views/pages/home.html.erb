@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Nexus</title>
+        <title>Nathan H. Foster</title>
         <meta charset="utf-8" />
     </head>
 
     <body id="home-page">
 
-        <div class="container">
+        <div class="container" id='dom-to-print'>
+            <%= link_to "Print", root_path, {:class => 'btn btn-primary hidden-print black-shadow', 'onclick' => 'printPage()'}%>
 
             <div class="page">
                 <div class="row text-center">
-                    <h2>Nathan H. Foster</h2>
+                    <h1>Nathan H. Foster</h1>
                     <hr></hr>
                 </div>
             
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-2">
+                    <div class="col-md-4 col-sm-4 col-xs-2 print-col-xs-4">
                         <span class="pull-left">(209) 366-4727</span>
                     </div>
 
@@ -24,18 +25,18 @@
                         <span>San Jose, CA 95116</span>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-md-4 col-sm-4 col-xs-6 print-col-xs-4">
                         <span class="pull-right">nathan.foster@sjsu.edu</span>
                     </div>
                 </div>
                 <br>
 
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 col-xs-3">
+                    <div class="col-md-2 col-sm-2 col-xs-3 print-col-xs-2">
                         <strong>OBJECTIVE</strong>
                     </div>
 
-                    <div class="col-md-10 col-sm-10 col-xs-9">
+                    <div class="col-md-10 col-sm-10 col-xs-10">
                         <span>Seeking a challenging software engineering internship to be on the vanguard of software innovation</span>
                     </div>
                 </div>
