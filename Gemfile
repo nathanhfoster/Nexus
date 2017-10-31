@@ -27,8 +27,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'jquery-rails'
-gem 'jspdf-rails'
-gem 'sketchily', '4.0.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
