@@ -20,9 +20,9 @@ header {
     text-align: center;
 }
 hr {
-    border-top: 3px solid $primary !important;
+    border-top: 2px solid $primary !important;
     /* Top|Right|Bottom|Left*/
-    margin: 10px auto !important;
+    margin: 4px auto !important;
 }
 
 li {
@@ -30,22 +30,20 @@ li {
 }
 
 p {
-	margin: 0 0 25px;
-	font-size:18px;
-	line-height:1.6em;
+	line-height: 1.6em;
 }
 a {
 	color: $primary !important;
 }
-a:hover,a:focus{
+a:hover, a:focus{
 	text-decoration:none;
 	color: $primary !important;
 }
 
-#contact{
+#contact {
 	background: $light-black;;
 	color: $white-smoke;
-	padding-bottom: 80px;
+	padding-bottom: 20px;
 
 	&:hover {
 		box-shadow: 4px 4px 2px $primary;
@@ -74,9 +72,6 @@ textarea.form-control, .form-control {
 }
 .profile-pic {
 	margin: 20px;
-}
-section {
-	padding-bottom: 40px !important;
 }
 
 .black-shadow:hover {

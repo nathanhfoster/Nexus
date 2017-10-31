@@ -3,19 +3,25 @@
 @media print {
 	@page { margin: 0;  font-family: Georgia, Times, "Times New Roman", serif; }
 
-	// html, body { background-color: red !important; }
+	// html { background-color: red !important; }
 
-	.container { margin: 1.5cm !important;  /* background-color: green !important; */ }
+	// body { background-color: black !important; }
+
+	/* Top|Right|Bottom|Left*/
+	.container { margin: 1.5cm 1cm 1.5cm 1cm !important;   /* background-color: green !important; */ }
  
 	// div.page { background-color: green !important; }
 
-	h1 { font-size: 34px !important; }
+	h1 { font-size: 24px !important; }
 
-	hr { border-top: 3px solid $black !important; }
+	hr { border-top: 2px solid $black !important; }
 
 	a { color: $black !important; }
 
 	/* Overide bootstrap */
+	.row {padding: 0 !important; } 
+
+	[class*="col-"] { padding: 0 !important; margin: 0 !important; }
 	.print-col-auto { width: auto !important; }
 	.print-col-xs-1 { width: calc(100*(1%/12)) !important; }
 	.print-col-xs-2 { width: calc(100*(2%/12)) !important; }
@@ -23,8 +29,15 @@
 	.print-col-xs-10 { width: calc(100*(10%/12)) !important; }
 	.print-col-xs-11 { width: calc(100*(11%/12)) !important; }
 
-	/* If [device width] is less than or equal to 767px or greater than or equal to 768px then do {...} */
-	@media (max-width: 767px), (min-width: 768px) { html, body { font-size: 104.25% !important; } .row {padding: 0 !important; } [class*="col-"] { padding: 0 !important; margin: 0 !important; } }
+	
 
+	/* If [device width] is less than or equal to 767px then */
+	@media (max-width: 767px) { html, body { font-size: 82% !important; }  }
 
+	/* If [device width] is greater than or equal to 768px AND less than or equal ro 991px then */
+	@media (min-width: 768px) and (max-width: 991px)  { html, body { font-size: 84.5% !important; } }
+
+	/* If [device width] is greater than or equal to 992px AND less than or equal to 7860px then ignore */
+	@media (min-width: 992px) and (max-width: 7680px) { html, body { display: none; } }
+	
 }
