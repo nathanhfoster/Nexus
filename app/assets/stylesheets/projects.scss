@@ -1,13 +1,72 @@
 @import "_variables";
 
-body {
+html, body {
+	height: 100%;
     background-color: transparent;
 }
 
 #project-page {
-   background-color: $gray;
+	color: $white;
+   background-color: $ebony-clay;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+}
+
+.box-triangle {
+	border-radius: 15px;
+    position:relative;
+    background-color: $primary;
+    height: $box-triangle-height;
+    width: $box-triangle-width;
+}
+
+.box-triangle:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 0;
+    width: 0;
+   
+    margin-left: -25px;
+    border-top: solid 25px $primary;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+    // transition: border-top 5.5s ease;
+}
+
+.box-triangle-text {
+	color: $white !important;
+	text-align: center;
+    vertical-align: middle;
+    line-height: $box-triangle-height;      /* the same as your div height */
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  };
+
+  .parallax { 
+    /* The image used */
+    background-image: url("https://onepagelove-wpengine.netdna-ssl.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg");
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }

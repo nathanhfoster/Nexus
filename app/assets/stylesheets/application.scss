@@ -59,3 +59,21 @@ strong { font-weight: $bold; }
         text-decoration: none;
     }
 }
+
+.navbar-brand > a {
+   font-size: 1.2em;
+
+    &:hover {
+        color: $white !important;
+        font-size: 1.25em;
+    }
+
+}
+
+ul > li {
+    font-size: 1.2em;
+
+    &:hover {
+        font-size: 1.25em;
+    }
+}

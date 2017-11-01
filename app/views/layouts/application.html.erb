@@ -17,7 +17,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="navbar-brand pull-left">
-          
+        <%= link_to "NF", root_path, {:class => ''} %>
       </div>
       <div class="container">
         <div class="navbar-header">
@@ -35,10 +35,10 @@
           <ul class="nav navbar-nav">
 
             <li class="<%= active_class(root_path) %>">
-              <%= link_to "Resume", root_path, {:class => ''}%>
+              <%= link_to "Resume", root_path, {:class => ''} %>
 
               <li class="<%= active_class(projects_path) %>">
-              <%= link_to "Projects", projects_path %>
+              <%= link_to "Projects", projects_path,{:class => ''} %>
 
             </li>
           </ul>
