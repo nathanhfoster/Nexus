@@ -11,8 +11,19 @@ div.page {
 	width: 100%;
 }
 
-.container {
-	width: 100% !important;
+.parallax-header {
+	color: $white;
+	background-color: $midnight;
+	text-align:center;
+	padding: 50px 80px;
+	text-align: justify;
+	& > p {
+		line-height: auto;
+	}
+}
+
+.project-container {
+	width: 100%;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -22,7 +33,6 @@ div.page {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  horizontal-scrolling: false;
 }
 .bgimg-1 {
   background-image: url("http://www.drawingtutorials101.com/drawing-tutorials/Religions/Hinduism/vishnu/how-to-draw-Vishnu-step-0.png");
@@ -45,12 +55,11 @@ div.page {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  background-color: $secondary;
+  color: $white;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 8px;
@@ -95,7 +104,7 @@ h3 {
 }
 
 .box-triangle-text {
-	font-size: 2rem;
+	font-size: auto;
 	color: $white !important;
 	text-align: center;
     vertical-align: middle;
