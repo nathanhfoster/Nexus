@@ -44177,3 +44177,292 @@ Processing by PagesController#projects as HTML
 Completed 200 OK in 1213ms (Views: 1212.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-01 21:23:12 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (194.6ms)
+Completed 200 OK in 373ms (Views: 239.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:23:16 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:23:28 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 65ms (Views: 62.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:26:02 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 54ms (Views: 51.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:33:24 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 54ms (Views: 51.8ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:36:41 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1185ms (Views: 1183.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:36:50 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 59.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:37:34 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1146ms (Views: 1144.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:38:12 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:38:29 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1211ms (Views: 1210.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:38:48 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1163ms (Views: 1162.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:41:35 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1422ms (Views: 1421.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:42:29 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2407ms (Views: 2401.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:42:39 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 44.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:42:58 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1399ms (Views: 1398.1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:43:10 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2871ms (Views: 2870.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:43:55 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1386ms (Views: 1385.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:44:09 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1442ms (Views: 1440.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:44:16 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 58.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-01 21:44:18 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53ms (Views: 51.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:44:24 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 59.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:45:42 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 49.8ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:45:51 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 41.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:46:03 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 36.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:47:04 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1408ms (Views: 1405.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:48:31 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1371ms (Views: 1370.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:49:40 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 50.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:50:05 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:50:09 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 51.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:50:25 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:52:45 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 47.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:53:04 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1400ms (Views: 1399.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:54:24 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1284ms (Views: 1281.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:54:54 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1267ms (Views: 1265.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:55:04 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1434ms (Views: 1431.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:55:23 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9763ms (Views: 9762.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:55:39 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 65ms (Views: 63.8ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:55:59 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1385ms (Views: 1384.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:56:19 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1313ms (Views: 1310.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:56:36 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1298ms (Views: 1297.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2017-11-01 21:59:48 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1191ms (Views: 1188.6ms)
+
+

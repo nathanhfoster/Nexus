@@ -1,14 +1,15 @@
 @import "_variables";
 
 body, html {
-  height: 100%;
+  height: 100% !important;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  overflow-x: hidden;
 }
 
 div.page {
-	width: 100%;
+
 }
 
 .project-container {
@@ -16,54 +17,24 @@ div.page {
 	width: 100%;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.6;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bgimg-1 {
-  background-image: url("http://www.drawingtutorials101.com/drawing-tutorials/Religions/Hinduism/vishnu/how-to-draw-Vishnu-step-0.png");
-  min-height: 100%;
+.parallax {
+    /* The image used */
+    background-image: url('http://d.c-launcher.com/wallpaper/img/318/53a7c88ce4b0dc540acf437e/1403504780989/wallpaper.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
-.bgimg-2 {
-	background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
-	min-height: 400px;
-}
-
-.bgimg-3 {
-	background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
-	min-height: 400px;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-}
-
-.caption span.border {
+.parallax-div {
+  height: 100%;
   background-color: $primary;
-  color: $white;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 8px;
-}
-
-.parallax-header {
-	color: $white;
-	background-color: $midnight;
-	text-align: center;
-	padding: 50px 80px;
-	text-align: justify;
-	& > p {
-		line-height: auto;
-	}
+  font-size:36px
 }
 
 h3 {
@@ -118,9 +89,11 @@ h3 {
       margin: auto;
   };
 
-/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-// @media only screen and (max-device-width: 1024px) {
-//     .parallax {
-//         background-attachment: scroll;
-//     }
-// }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {}
