@@ -1,14 +1,14 @@
 @import "_variables";
 
 @media print {
-	@page { margin: 0;  font-family: Georgia, Times, "Times New Roman", serif; }
+	@page { font-family: Georgia, Times, "Times New Roman", serif; }
 
-	html, body { overflow: hidden; }
+	html, body { overflow: hidden !important; }
 
 	// body { background-color: black !important; }
 
 	/* Top|Right|Bottom|Left*/
-	.container { margin: 1.5cm 1cm 1.5cm 1cm !important;   /* background-color: green !important; */ }
+	.container { margin: 0cm 1cm 1.5cm 1cm !important;   /* background-color: green !important; */ }
  
 	// div.page { background-color: green !important; }
 

@@ -1,40 +1,62 @@
 @import "_variables";
 
 html, body {
-  height: 100% !important;
+  height: 100vh !important;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 div.page {
 
 }
 
+.primary {
+  color: $primary;
+}
+
 .project-container {
 	overflow: hidden;
 	width: 100%;
+
+}
+
+.img-1 {
+  background-image: url('red-suit.jpg');
+}
+
+.img-2 {
+  background-image: url('https://wallpaperscraft.com/image/black_background_red_color_paint_explosion_burst_9844_1920x1080.jpg');
 }
 
 .parallax {
-    /* The image used */
-    background-image: url('http://d.c-launcher.com/wallpaper/img/318/53a7c88ce4b0dc540acf437e/1403504780989/wallpaper.jpg');
 
-    /* Full height */
-    height: 100%; 
+    perspective: 1px;
+    height: 100vh;
+    perspective-origin-x: 100%;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.parallax-text {
+  
 }
 
 .parallax-div {
-  height: 100%;
   background-color: $primary;
-  font-size:36px
+
+  & > span {
+    height: 100%;
+    font-size: 36px;
+  }
+
 }
 
 h3 {
