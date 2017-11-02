@@ -46295,3 +46295,10 @@ Processing by PagesController#projects as HTML
 Completed 200 OK in 1247ms (Views: 1246.5ms)
 
 
+Started GET "/projects" for 127.0.0.1 at 2017-11-02 10:55:52 -0700
+Processing by PagesController#projects as HTML
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1753ms (Views: 1599.7ms)
+
+
