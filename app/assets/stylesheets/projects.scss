@@ -11,18 +11,8 @@ div.page {
 	width: 100%;
 }
 
-.parallax-header {
-	color: $white;
-	background-color: $midnight;
-	text-align:center;
-	padding: 50px 80px;
-	text-align: justify;
-	& > p {
-		line-height: auto;
-	}
-}
-
 .project-container {
+	overflow: hidden;
 	width: 100%;
 }
 
@@ -40,13 +30,13 @@ div.page {
 }
 
 .bgimg-2 {
-  background-image: url("https://i.ytimg.com/vi/S7_niexGYEo/hqdefault.jpg");
-  min-height: 400px;
+	background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
+	min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
-  min-height: 400px;
+	background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
+	min-height: 400px;
 }
 
 .caption {
@@ -58,11 +48,22 @@ div.page {
 }
 
 .caption span.border {
-  background-color: $secondary;
+  background-color: $primary;
   color: $white;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 8px;
+}
+
+.parallax-header {
+	color: $white;
+	background-color: $midnight;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+	& > p {
+		line-height: auto;
+	}
 }
 
 h3 {
