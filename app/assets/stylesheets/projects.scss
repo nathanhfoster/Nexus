@@ -24,7 +24,7 @@ div.page {
 }
 
 .img-1 {
-  background-image: url('red-suit.jpg');
+  background-image: url('/assets/red-suit.jpg');
 }
 
 .img-2 {
@@ -32,7 +32,6 @@ div.page {
 }
 
 .parallax {
-
     perspective: 1px;
     height: 100vh;
     perspective-origin-x: 100%;
