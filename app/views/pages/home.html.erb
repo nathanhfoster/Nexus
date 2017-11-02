@@ -7,8 +7,8 @@
 
     <body id="home-page">
 
-        <div class="container" id='dom-to-print'>
-            <%= link_to "Print", root_path, {:class => 'btn btn-primary hidden-print black-shadow', 'onclick' => 'printPage()'}%>
+        <div class="container">
+            <%= button_tag "Print",  {:class => 'btn btn-primary hidden-print black-shadow m-t-20', :onclick => 'printPage()'} %>    
 
             <div class="page">
                 <div class="row text-center">
