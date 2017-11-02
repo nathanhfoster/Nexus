@@ -24,7 +24,7 @@ div.page {
 }
 
 .img-1 {
-  background-image: image-url("red-suit.jpg")
+  background-image: image-url("red-suit.jpg");
 }
 
 .img-2 {
@@ -34,6 +34,7 @@ div.page {
 .parallax {
     perspective: 1px;
     height: 100vh;
+    width: 100%;
     perspective-origin-x: 100%;
 
     /* Create the parallax scrolling effect */
@@ -42,10 +43,13 @@ div.page {
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    min-width: 100vw;
 }
 
 .parallax-text {
-  
+  display: inline-block;
 }
 
 .parallax-div {
