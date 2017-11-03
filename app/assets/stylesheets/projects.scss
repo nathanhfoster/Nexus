@@ -45,11 +45,19 @@ div.page {
     vertical-align: middle;
     text-align: center;
     display: table-cell;
-    min-width: 100vw;
+    width: 100vw;
 }
 
 .parallax-text {
   display: inline-block;
+}
+
+.shadow-primary {
+  text-shadow: 2px 2px 2px $primary;
+}
+
+.shadow-white {
+  text-shadow: 2px 2px 2px $white;
 }
 
 .parallax-div {
@@ -106,6 +114,10 @@ h3 {
 	text-align: center;
     vertical-align: middle;
     line-height: $box-triangle-height;      /* the same as your div height */
+}
+
+#Carousel {
+  background-color: inherit;
 }
 
 .carousel-inner > .item > img,

@@ -80,6 +80,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
 
 /* border */
 .navbar-default {
+  width: 100% !important;
   background-color: $black !important;
   border-color: $white-smoke !important;
   -webkit-box-shadow: 0 8px 6px -6px $gray;

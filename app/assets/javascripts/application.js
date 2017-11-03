@@ -15,7 +15,3 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-
-function printPage() {
-    window.print();
-}
