@@ -14,10 +14,9 @@
      <%= render "navbar/navbar" %>
 
     <%= yield %>
-    <%= button_tag "",  {:class => 'fa fa-arrow-up hidden-print go-top', :href => '#'} %> 
      
     <footer class="text-center hidden-print">
-        <p>&copy; <%= Date.today.year %> Nathan Foster.</p>
-      </footer>
+      <p>&copy; <%= Date.today.year %> Nathan Foster.</p>
+    </footer>
   </body>
 </html>

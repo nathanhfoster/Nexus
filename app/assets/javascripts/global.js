@@ -7,7 +7,8 @@ $(document).ready(function() {
     // Show or hide the sticky footer button
     // $(window).scroll(function() {
     $('html, body').on('scroll', function () {
-        console.log("scrollTop: ", $(this).scrollTop());
+        console.log("scrolling");
+        // console.log("scrollTop: ", $(this).scrollTop());
         // console.log("h: ", h);
         if ($(this).scrollTop() > 200) {
             // console.log("IF");
