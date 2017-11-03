@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('html, body').on('scroll', function () {
         console.log("scrollTop: ", $(this).scrollTop());
         // console.log("h: ", h);
-        if ($(this).scrollTop() > h) {
+        if ($(this).scrollTop() > 200) {
             // console.log("IF");
             $('.go-top').fadeIn(400);
 
